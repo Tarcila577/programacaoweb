@@ -1,0 +1,86 @@
+body {
+    background-color: white;
+    margin: 0;
+}
+#principal{
+    background-color: #e2d8e7;
+    margin: 24px;
+    
+}
+#topo{
+    background-color: #21022d;
+    text-align: center;
+    padding: 8px 0px 8px 0px;
+    color: white
+}
+
+#mmenor{
+    padding: 16px 0px 0px 16px;
+    margin: 0px;
+}
+img{
+    height: 150px;
+    width: 150px;
+
+}
+
+.partes{
+    margin: 64px;
+}
+
+#reparticao{
+    text-align: center;
+}
+
+#reparticao img{
+    height: 300px;
+    width: 600px;
+    margin-top: 32px;
+}
+#reparticao h2{
+    margin-top: 64px;
+}
+#inferior{
+    background-color: #21022d;
+    text-align: center;
+    padding: 8px 0px 8px 0px;
+    color: white
+}
+
+
+.line {
+    border-right: 2px solid #ffffffbf;
+    text-align: center;
+    margin: 0 auto;
+    white-space: nowrap;
+    overflow: hidden;
+}
+
+.titulo {
+    animation: blink 750ms steps(40) infinite normal, typing 4s steps(40) 1s normal both;
+}
+
+.paragrafo {
+    animation: blink 750ms steps(40) infinite normal, typing 4s steps(40) 5s normal both;
+}
+
+
+
+
+@keyframes typing {
+    from {
+        width: 0;
+    }
+    to {
+        width: 38.5em;
+    }
+}
+
+@keyframes blink{
+    from {
+        border-right-color: #ffffffbf;
+    }
+    to {
+        border-right-color: transparent;
+    }
+}

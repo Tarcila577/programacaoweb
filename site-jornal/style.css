@@ -1,0 +1,62 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat+Subrayada:wght@700&display=swap');
+body{
+    background-color: #2e71b4;
+    text-align: center;
+}
+
+li {
+    padding: 5px;
+    font-size: 30px;
+    border-left: 0px solid #000;
+    border-right: 0px solid #000;
+    border-bottom: 0px solid #000;
+    border-top: 0px solid #000;
+    box-shadow: 0px 0px 0px #1f4c79;
+    transition: 0.5s;
+}
+
+li:hover {
+    box-shadow: 0px 3px 5px #1f4c79;
+    border-left: 10px solid #000;
+    border-right: 1px solid #000;
+    border-bottom: 1px solid #000;
+    border-top: 1px solid #000;
+    color: #fff;
+    transition: 0.5s;
+}
+
+a{
+    text-decoration: none;
+    color: black;
+}
+
+h1{
+    text-align: center;
+    font-size: 100px;
+    margin-bottom: 0px;
+    
+    font-family: 'Montserrat Subrayada', sans-serif;
+}
+
+#datatopo{
+    text-align: center;
+    font-size: 15px;
+    margin-top: 0px;
+}
+
+ul{
+    list-style-type: none;
+    display: flex;
+    justify-content: space-around;
+    background-color: rgb(255, 255, 0);
+    border-radius: 10px;
+}
+
+footer{
+    text-align: center;
+    margin: 10px;
+}
+
+nav{
+    margin-bottom: 600px;
+}

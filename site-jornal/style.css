@@ -1,6 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Montserrat+Subrayada:wght@700&display=swap');
 body{
-    background-color: #2e71b4;
+    background-color: #1f4c79;
     text-align: center;
 }
 
@@ -34,13 +34,17 @@ h1{
     text-align: center;
     font-size: 100px;
     margin-bottom: 0px;
-    
     font-family: 'Montserrat Subrayada', sans-serif;
+}
+
+h1:hover {
+    transform: rotateY(360deg);
+    transition: 1.0s;
 }
 
 #datatopo{
     text-align: center;
-    font-size: 15px;
+    font-size: 18px;
     margin-top: 0px;
 }
 
@@ -59,4 +63,32 @@ footer{
 
 nav{
     margin-bottom: 600px;
+}
+
+.line {
+    border-right: 2px solid #ffffffbf;
+    white-space: nowrap;
+    overflow: hidden;
+}
+
+.animation {
+    animation: blink 750ms steps(40) infinite normal, typing 4s steps(40) 1s normal both;
+}
+
+@keyframes typing {
+    from {
+        width: 0px;
+    }
+    to {
+        width: 100%;
+    }
+}
+
+@keyframes blink{
+    from {
+        border-right-color: #ffffffbf;
+    }
+    to {
+        border-right-color: transparent;
+    }
 }
